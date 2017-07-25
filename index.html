@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html ng-app="reddit" lang="en">
+  <head>
+    <title>Rich Man's Reddit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <h1>Rich Man's Reddit</h1>
+
+    <nav>
+      <a href="#!/input">Search</a>
+      <a href="#!/output">View Results</a>
+    </nav>
+
+    <ng-view></ng-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+    <script src="https://code.angularjs.org/1.6.4/angular-route.js"></script>
+    <script src="module.js"></script>
+    <script src="config.js"></script>
+    <script src="input-ctrl.js"></script>
+    <script src="output-ctrl.js"></script>
+    <script src="service.js"></script>
+    <script src="directive.js"></script>
+  </body>
+</html>
